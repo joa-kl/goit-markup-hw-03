@@ -1,0 +1,174 @@
+:root{
+    --brand-color: #2196F3;
+    --black: #212121;
+    --white: #FFFFFF;
+    --gray: #2F303A;
+    --color: black;
+    --light-gray: #757575;
+}
+
+body{
+    color: var(--black);
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    font-family:'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.logoblue{
+  color: var(--brand-color);
+}
+
+.logoblack{
+    color: var(--black);
+}
+
+.logowhite{
+    color: var(--white);
+}
+
+.header{
+    background-color: var(--white);
+}
+
+.footersection {
+    background-color: var(--gray);
+}
+
+.button{
+    border:0 ;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--white);
+    background-color: var(--brand-color);
+}
+
+.link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    text-decoration: none;
+    color: var(--black);
+    letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--brand-color);
+}
+
+.contactcolor{
+    color: var(--light-gray);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.1;
+}
+.contactcolor:hover,
+.contactcolor:focus{
+    color: var(--brand-color);
+}
+.address{
+    color: var(--white);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+}
+
+.footer{
+    font-size: 14px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer:hover,
+.footer:focus{
+    color: var(--brand-color);
+}
+.decoration{
+    text-decoration: none;
+}
+
+.description{
+    font-weight:  700;
+    font-size:18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.subdescription{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--light-gray);
+}
+
+.name{
+font-weight:500;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+
+.headingtitle{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.6;
+    letter-spacing: 0.06em;
+}
+
+.heading{
+    background-color: var(--gray);
+    color: var(--white);
+}
+
+.subsectionheading{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+}
+
+.lorem{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: var(--light-gray);
+}
+
+.sectionheading{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.buttonmain{
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    background-color: var(--brand-color);
+    color: var(--white);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.list{
+    list-style:none;
+}
