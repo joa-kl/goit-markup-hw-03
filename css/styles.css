@@ -10,6 +10,8 @@
 body{
     color: var(--black);
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    width: 1600px;
 }
 
 .logo{
@@ -19,6 +21,9 @@ body{
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
+    width: 145px;
+    height: 31px;
+    margin: 24px 93px 25px 215px;
 }
 
 .logoblue{
@@ -35,10 +40,18 @@ body{
 
 .header{
     background-color: var(--white);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    border-bottom: 0.5px solid #ebe9e9;
 }
 
 .footersection {
     background-color: var(--gray);
+    width: 1600px;
+    height: 252px;
+    padding-top: 60px;
 }
 
 .button{
@@ -47,6 +60,12 @@ body{
     font-size: 16px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
+    min-width: 200px;
+    min-height: 50px;
+    text-align: center;
+    margin: 0 700px 200px;
+    padding: 0;
+    border-radius: 4px;
 }
 
 .button:hover,
@@ -68,6 +87,7 @@ body{
 .link:hover,
 .link:focus {
     color: var(--brand-color);
+
 }
 
 .contactcolor{
@@ -79,6 +99,7 @@ body{
 .contactcolor:hover,
 .contactcolor:focus{
     color: var(--brand-color);
+    /* text-shadow: 2px 2px 2px #c2c2c2; */
 }
 .address{
     color: var(--white);
@@ -86,7 +107,10 @@ body{
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
-    line-height: 1.7;
+    line-height: 1.71;
+    margin-left: 215px;
+    margin-bottom: 9px;
+    margin-top: 20px;
 }
 
 .footer{
@@ -104,36 +128,52 @@ body{
 }
 
 .description{
-    font-weight:  700;
-    font-size:18px;
+    font-weight: 700;
+    font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-.subdescription{
+.subdescription {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--light-gray);
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    /* min-width: 130px;
+    max-height: 19px; */
 }
 
-.name{
-font-weight:500;
-font-size: 16px;
-line-height: 1.2;
-letter-spacing: 0.03em;
+.name {
+    font-weight:500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    justify-content: center;
 }
 
 .headingtitle{
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.6;
+    line-height: 1.36;
     letter-spacing: 0.06em;
+    padding: 200px 452px 30px 452px;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+
 }
 
 .heading{
     background-color: var(--gray);
     color: var(--white);
+    max-width: 1600px;
+    max-height: 600px;
+    margin: 0 auto;
 }
 
 .subsectionheading{
@@ -141,14 +181,18 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    
 }
 
 .lorem{
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--light-gray);
+    margin: 0;
 }
 
 .sectionheading{
@@ -156,6 +200,9 @@ letter-spacing: 0.03em;
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px; 
 }
 
 .buttonmain{
@@ -171,4 +218,171 @@ letter-spacing: 0.03em;
 
 .list{
     list-style:none;
+    display: flex;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 15px;
+    margin: 94px 215px 0px;
+  
+}
+
+.section{
+    padding: 94px 0;
+    background-color: #F5F4FA;
+}
+
+/* .display{
+  display: flex;
+} */
+
+.nav {
+    justify-content: space-between;
+    align-items: center;
+   padding: 0;
+   width: 254px;
+   height: 16px;
+   margin: 32px 371px 32px 0px;
+}
+
+.contact{
+    padding: 0;
+    margin: 32px 227px 32px 0;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 245px;
+    height: 16px;
+    display: flex;
+    font-weight: bold;
+    
+}
+.paragraph{
+    width: 270px;
+    height: 101px;
+    justify-content: space-between;
+}
+
+.photos-activites{
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 94px;
+    margin-top: 0px;
+}
+.team-card{
+    width: 270px;
+    height: 368px;
+    background-color: #FFFFFF;
+    box-shadow:0px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+}
+
+.team-card-description{
+    text-align: center;
+    margin-top: 30px;
+    line-height: 1.2;
+}
+
+.one {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 215px;
+    padding: 0px;
+}
+
+.bottom{
+    padding-bottom: 60px;
+}
+.bottom-container {
+    padding-top: 50px;
+}
+
+.team-heading{
+    margin-top: 0px;
+}
+.buttons {
+   gap: 8px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   width: 572px;
+   height: 54px;
+   margin: 0 auto;
+   padding: 0px;
+}
+
+.card-set{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0px
+  
+}
+
+.button-portfolio{
+    border: 0;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    font-weight: 500;
+    Height: 38px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0px 22px;
+}
+       
+.button-portfolio:hover,
+.button-portfolio:focus {
+    color: var(--white);
+    background-color: var(--brand-color);}
+
+.buttons-position{
+    justify-content: center;
+}
+
+.card{
+    border: 0.5px solid #f8f5f5;
+    max-width: 370px;
+    max-height: 404px;
+}
+/* .descr-aligment{
+    justify-content: left;
+} */
+.description-portfolio {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    padding-left: 24px;
+}
+
+.subdescription-portfolio {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--light-gray);
+    text-align: left;
+    margin: 0 auto;
+    min-width: 130px;
+    max-height: 19px;
+    padding-left: 24px;
+    margin-bottom: 20px;
+}
+
+.footersection-portfolio{
+    background-color: var(--gray);
+    width: 1600px;
+    height: 252px;
+    padding-top: 60px;
+    margin-top: 94px;
 }
